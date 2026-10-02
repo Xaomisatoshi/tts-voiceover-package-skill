@@ -1,0 +1,14 @@
+interface:
+  display_name: TTS Voice-over Package
+  short_description: Create complete TTS-ready voice-over packages.
+  default_prompt: Use $tts-voiceover-package to create a complete TTS-ready voice-over
+    package with script, delivery direction, assumptions, and readiness guidance.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
